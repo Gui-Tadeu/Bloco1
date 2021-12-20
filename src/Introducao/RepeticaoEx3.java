@@ -11,7 +11,7 @@ public class RepeticaoEx3{
 	Scanner ler = new Scanner(System.in);
 	System.out.println("Para finalizar o programa digite:'-99'.");
 	do {
-	System.out.println("Informe a idade: ");
+	System.out.print("Informe a idade: ");
 	idade = ler.nextInt();
 	if (idade < 21) {
 		jovem = (jovem+1);
